@@ -1,11 +1,12 @@
 import React from 'react'
-import './navbar.css'
+
 import logo from "../../assets/logo.png";
+import './navbar.css'
 
 const Navbar = () => {
   return (
     <nav>
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="" className='logo' />
     <ul>
         <li>Home</li>
         <li>Brain Storming</li>
