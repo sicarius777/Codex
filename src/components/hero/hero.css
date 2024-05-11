@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('../../assets/PP.png');
+                url('../../assets/RS.jpg');
     background-size: cover;
     background-position: center;
     color: #ffff;
@@ -14,5 +14,19 @@
 .hero-text{
     text-align: center;
     max-width: 800px;
+
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 60px;
+
+}
+
+.hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+
 
 }
