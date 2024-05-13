@@ -8,7 +8,7 @@ const Navbar = () => {
 
     useEffect(()=>{
         window.addEventListener('scroll', ()=>{
-            window.scrollY > 500 ? setSticky(true) : setSticky(false);
+            window.scrollY > 400 ? setSticky(true) : setSticky(false);
         })
     },[]);
 
@@ -17,10 +17,10 @@ const Navbar = () => {
         <img src={logo} alt="" className='logo' />
     <ul>
         <li>Home</li>
-        <li>Brain Storming</li>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
+        <li>Tools</li>
+        <li>About us</li>
+        <li>Gallery</li>
+        <li>Quotes</li>
         <li><button className='btn'>Contact us</button></li>
     </ul>
     </nav>
