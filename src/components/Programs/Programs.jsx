@@ -9,7 +9,7 @@ import  logo from '../../assets/logo.png'
 
 const Programs = () => {
   return (
-    <div className='programs'>
+    <div className='programs' name="Tools">
       <div className='program'>
         <img src={Flora_1} alt="" />
         <div className="caption">
