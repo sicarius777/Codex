@@ -53,3 +53,23 @@
     margin-bottom: 15px;
 
 }
+
+/* media q */
+
+@media (max-width: 800px){
+    .programs{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .about-right{
+        flex-basis: 100%;
+    }
+}
+

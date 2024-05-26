@@ -23,6 +23,7 @@ const Contact = () => {
     });
 
     const data = await response.json();
+    
 
     if (data.success) {
       setResult("Submitted Successfully");
