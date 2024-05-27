@@ -1,26 +1,26 @@
-.video-player{
+.video-player {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(0, 0, 0, 0.9);
-    z-index: 100;
+    background: rgba(0, 0, 0, 0.9);
     display: flex;
-    align-items: center;
     justify-content: center;
-
-}
-
-.video-player video{
+    align-items: center;
+    z-index: 1000;
+  }
+  .video-player.video {
     width: 90%;
     max-width: 900px;
     height: auto;
-    border: 4px solid #fff;
-
-
-}
-
-.video-player.hide{ 
+    border: 4px solid #212EA0;
+  }
+  .video-content {
+    position: relative;
+  }
+  
+  .hide {
     display: none;
-}
+  }
+  
